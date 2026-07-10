@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Pagina principal de Eventos.co">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Styles/quienes-somos.css">
+  <title>Atencion al cliente</title>
+</head>
+<body>
+  <!-- Barra de navegacion -->
+	<nav class="navbar navbar-expand-md" data-bs-theme="dark" id="main-nav">
+		<div class="container-xl">
+			<div class="left-side">
+				<a href="main-page.html" class="navbar-brand" id="texto-nav">Eventos.co</a>
+				<form role="buscar contenido" id="buscar">
+					<input type="search" class="form-control me-2" 
+					placeholder="Buscar eventos..." aria-label="Buscar contenido en la pagina web"
+					id="b-input">
+					<button class="btn btn-success" type="submit" id="btn-nav">Buscar</button>
+				</form>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="btn2-nav">
+				<i class="bi bi-list" id="menu-ico"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<form role="buscar contenido" id="buscar2">
+							<input type="search" class="form-control me-2" 
+							placeholder="Buscar eventos..." aria-label="Buscar contenido en la pagina web"
+							id="b-input">
+							<button class="btn btn-success" type="submit" id="btn-nav">Buscar</button>
+						</form>
+					</li>
+					<li class="nav-item dropdown" id="nav-item-dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Unirse
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+							<li><a class="dropdown-item" href="iniciar-sesion.html">Iniciar sesión</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="atencion-cliente.html">Atencion al cliente</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="quienes-somos.html">¿Quienes somos?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="promocionar-evento.html">Promocionar evento</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" id="u-text">Hola Erick</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" id="u-ico"><i class="bi bi-person-fill" id="user-ico"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <!-- Atencion cliente -->
+    <section class="encontrado">
+		<div class="container-md" id="general-center">
+			<div class="row" id="rows">
+				<div class="col text-center">
+					<h1 class="texto-encontrado mb-0 mt-2">
+						Atención al cliente
+					</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Quienes somos -->
+	<section class="encontrado">
+		<div class="container-md" id="general-center">
+			<div class="row" id="rows">
+				<div class="col text-start">
+					<h3 class="texto-encontrado mb-0 mt-4">
+						Preguntas frecuentes
+					</h3>
+				</div>
+			</div>
+            <div class="row" id="rows">
+				<div class="col text-start">
+					<div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Quíenes somos?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Te damos la posibilidad de que tus eventos sean visibles para todos los usuarios de nuestra pagina web, presentando la informacion que tus nos brindas, para que los asistentes puedan encontrar y hacer parte de tu experiencia de manera sencilla.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Cómo puedes registrar eventos?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Registrar eventos en nuestra plataforma es un proceso sencillo
+                                    solamente dirigete al formulario para postular tus eventos que 
+                                    se encuentra en la barra de navegacion de la pagina web, donde
+                                    dice 'Promocionar evento' y rellena el formulario, una vez
+                                    listo, ya estara en nuestra web.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Nuestros medios de pago
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Puedes pagar tus entradas y/o boletos unicamente por medio de tarjetas
+                                    de credito o debito Visa, Mastercard y American Express, no contamos con
+                                    medios de pago en efectivo para ninguno de nuestros servicios. Para realizar
+                                    pagos en nuestra plataforma recuerda que debes ser mayor de 18 años.
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Cómo comprar entradas/boletas?
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Para realizar la compra de entradas y/o boletas en nuestra pagina web
+                                    lo puedes hacer directamente desde nuestra pagina web, dirigiendote al
+                                    evento de tu interes, selecciona el tipo de entrada que deseas, rellena el
+                                    formulario de pago y listo. Recuerda tener en cuenta los diferentes medios de pago con los que contamos.
+                                </div>  
+                            </div>                          
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Cúantas boletas por usuario?
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Cada usuario dentro de la plataforma podra adquirir un maximo de 4
+                                    entradas y/o boletas por evento.
+                                </div>  
+                            </div>                          
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Existen cargos extra por transacción?
+                                </button>
+                            </h2>
+                            <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Claro que no, no te preocupes por recibir algun tipo de cargo extra en tus compras,
+                                    esto aplica siempre y cuando realices tus compras dentro de nuestra pagina web,
+                                    por ello asegurate siempre de adquirir las entradas a tus eventos favoritos desde sitios oficiales,
+                                    en donde puede estar nuestro sitio web.
+                                </div>  
+                            </div>                          
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Qué tipos de entradas/boletas ofrecemos?
+                                </button>
+                            </h2>
+                            <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A los organizadores de eventos dentro de nuestra pagina web, les ofrecemos
+                                    la posibilidad de brindar dos tipos de entradas/boletos a sus usuarios,
+                                    donde tenemos las VIP y las Generales, cada organizador sera el encargado
+                                    de colocar los precios y beneficios de cada una de las entradas para sus eventos.
+                                </div>  
+                            </div>                          
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>	
+    <!-- Mas preguntas -->
+    <section class="encontrado">
+		<div class="container-md" id="general-center">
+			<div class="row" id="rows">
+				<div class="col text-start">
+					<h1 class="texto-encontrado mb-0 mt-2">
+						¿Aún con dudas?
+					</h1>
+				</div>
+			</div>
+            <div class="row" id="rows">
+				<div class="col text-start">
+					<h4 class="texto-encontrado mb-0 mt-2">
+						Puedes contactarnos por medio de nuestras redes sociales,
+                        y asi conocernos un poco mas mientras resuelves tus dudas.
+					</h4>
+				</div>
+			</div>
+            <div class="row text-center mt-4" id="social-media">
+				<div class="col">
+					<a  class="container-ico">
+						<i class="bi bi-twitter-x" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col">
+					<a  class="container-ico">
+						<i class="bi bi-instagram" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col">
+					<a class="container-ico">
+						<i class="bi bi-facebook" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico">
+						<i class="bi bi-whatsapp" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico">
+						<i class="bi bi-tiktok" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico">
+						<i class="bi bi-linkedin" id="social-icon"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Seccion de preguntas -->
+	<section class="preguntas mt-5">
+		<div class="container-md" id="general-container">
+			<div class="row" id="second-container">
+				<div class="col text-start">
+					<h1 class="preguntas">
+						¿Quíeres comenzar?
+					</h1>
+				</div>
+			</div>
+			<div class="row" id="second-container">
+				<div class="col" id="center-zone">
+					<a href="main-page.html" class="btn btn-danger" id="buttons">Explorar eventos</a>
+				</div>
+				<div class="col"id= "center-zone">
+					<a href="promocionar-evento.html" class="btn btn-danger" id="buttons">Promociona tu evento</a>
+				</div>
+		    </div>
+        </div>
+	</section>
+	<!-- Footer -->
+	<footer class="f-web" id="contactanos">
+		<div class="container-fluid" id="f-container">
+			<!-- Nombre de la empresa -->
+			<div class="row">
+				<div class="col">
+					<h1 class="text-center" id="title-footer">Eventos.co</h1>
+				</div>
+			</div>
+			<!-- Iconos de redes sociales -->
+			<div class="row text-center" id="social-media">
+				<div class="col">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-twitter-x" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-instagram" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-facebook" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-whatsapp" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-tiktok" id="social-icon"></i>
+					</a>
+				</div>
+				<div class="col" id="w-ico">
+					<a  class="container-ico" id="red">
+						<i class="bi bi-linkedin" id="social-icon"></i>
+					</a>
+				</div>
+			</div>
+			<!-- Enlaces del footer -->
+			<div class="row text-center">
+				<div class="container" id="f-3-c">
+					<div class="col" id="link-container">
+						<a href="atencion-cliente.html" class="f-links">
+							Atención al usuario
+						</a>
+					</div>
+					<div class="col" id="link-container">
+						<a href="quienes-somos.html" class="f-links">
+							¿Quiénes somos?
+						</a>
+					</div>
+					<div class="col" id="link-container">
+						<a href="registro.html" class="f-links">
+							Registrarse
+						</a>
+					</div>
+					<div class="col" id="link-container">
+						<a href="terminos-condiciones.html" class="f-links">
+							Terminos y Condiciones
+						</a>
+					</div>
+					<div class="col" id="link-container">
+						<a href="atencion-cliente.html" class="f-links">
+							Preguntas frecuentes
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center mt-4">
+				<h6 aria-label="anuncio de copyright Eventos.co, todos derechos reservados"
+				id="copyright">
+					@2026 Eventos.co
+				</h6>
+			</div>
+		</div>
+	</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="../Scripts/buscar-evento.js" type="module"></script>
+  <script src="../Scripts/buscar-usuario.js" type="module"></script>
+</body>
+</html>

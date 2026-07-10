@@ -1,0 +1,25 @@
+{
+  "name": "Eventos.co",
+  "version": "1.0.0",
+  "description": "Proyecto con la pagina web desarrollada para la actividad entregable",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.9.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/node": "26.1.0",
+    "bootstrap": "5.3.8",
+    "typescript": "6.0.3"
+  }
+}
