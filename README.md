@@ -2,6 +2,7 @@
 
 Aqui dejo la estructura de las carpetas y archivos de manera grafica.
 
+```
 │   .gitignore
 │   package.json
 │   pnpm-lock.yaml
@@ -52,3 +53,4 @@ Aqui dejo la estructura de las carpetas y archivos de manera grafica.
         registro.css
         terminos-condiciones.css
         visualizador-evento.css
+```
